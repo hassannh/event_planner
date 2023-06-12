@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Merriweather:ital,wght@0,300;1,300&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+/* font*/
+ .redressed{
+  font-family:'Redressed',cursive ;
+}
+.Merriweather{
+  font-family: 'Merriweather';
+}
+body{
+    background:url(../photos/Plan.jpg) center center  fixed ;
+    height:100%;
+    width: auto; 
+    background-size: 100% 100%;  
+}
+
+.container{
+    padding-top: 60px;
+}
+
+    .image2 img{
+        background: url(../photos/salle.png) center center no-repeat;
+        width: 60px;
+        height: 60px;
+        background-color: #FFFFFF;
+        border-radius: 40px;
+        margin-left: 10px;
+    }
+    .image3 img{
+        background: url(../photos/equipement.png) center center no-repeat;
+        width: 60px;
+        height: 60px;
+        background-color: #FFFFFF;
+        border-radius: 40px;
+        margin-left: 10px;
+    }
+    .image4 img{
+        background: url(../photos/personnel.png) center center no-repeat;
+        width: 60px;
+        height: 60px;
+        background-color: #FFFFFF;
+        border-radius: 40px;
+        margin-left: 10px;
+    }
+    .image5 img{
+        background: url(../photos/services.png) center center no-repeat;
+        width: 60px;
+        height: 60px;
+        background-color: #FFFFFF;
+        border-radius: 40px;
+        margin-left: 10px;
+    }
+    
+    .image5 img:hover{
+        transform: scale(1.1);
+    }
+    
+    .image4 img:hover{
+        transform: scale(1.1);
+    }
+    .image3 img:hover{
+        transform: scale(1.1);
+    }
+    .image2 img:hover{
+        transform: scale(1.1);
+    }
+    .image1 img:hover{
+        transform: scale(1.1);
+    }
+    
+    .menu li a{
+        text-decoration-line: none;
+        color: #FFFFFF;
+    }
+
+    .slider img{
+      
+        height: 400px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+      
+    }
+  .retour{
+    color:  #D91B5C;
+    width: 25px;
+    height:  25px;
+    border-radius: 50px;
+    border-color: transparent;
+  
+  }
+  
+.retour button:focus{
+    border-color: transparent;
+}
+  .btn:hover{
+    transform: scale(1.1);
+  }
+
+  .titre{
+    color: #FFFFFF;
+    font-family: 'Merriweather';
+    padding-bottom: 5px;
+    
+  }
+
+  .cadre{
+    height: 430px;
+    background-color: #FFFFFF;
+    width: 800px;
+    border: #D91B5C solid 3px;
+    border-radius: 20px;
+  }
+

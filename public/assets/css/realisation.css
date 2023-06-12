@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Merriweather:ital,wght@0,300;1,300&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+/* font*/
+.redressed{
+ font-family:'Redressed',cursive ;
+}
+.Merriweather{
+ font-family: 'Merriweather';
+}
+/* Navbar*/
+
+
+
+
+/*slide images */
+.image-container {
+    overflow-x: hidden;
+    max-width: 880px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px; 
+    }
+    .image-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view));
+    grid-gap: 1.5rem;
+    position: relative;
+    left: 0;
+    transition: .4s;
+    }
+    .image-wrapper > * {
+    aspect-ratio: 4 / 3;
+    }
+    .img-slide{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        border-radius: .5rem;
+    }
+    #div_section-1{
+    width: 100%;
+    height: auto;
+    padding:40px 40px 40px 40px;
+    margin-top:30px;
+    margin-bottom:30px;
+    background-color:black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    }
+    .text-event-1{
+    text-align:center;
+    color:white;
+    }
+    #div_section-2{
+    width: 100%;
+    height: auto;
+    padding:40px 40px 40px 40px;
+    margin-top:30px;
+    margin-bottom:30px;
+    background-color:white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    }
+    .text-event-2{
+    text-align:center;
+    color:black;
+    }
+    /*style footer*/
+    .text{
+        color: white;
+        text-decoration-line: none;
+      }
+      footer{
+        background: #000;
+       
+      }
+      h6{
+        color: rgb(255, 174, 0);
+      }
+    
+    /* Realisation*/
+    
+    .banner{
+    background:url(../photos/2.jpg) center center fixed no-repeat ;
+    height:100vh;
+    width: 100%; 
+    background-size: 100% 100%;  
+    
+    }
+    
+    
+    .hero{
+    margin-top: 130px;
+    
+    }
+    .hero h1{
+    font-size: 70px;
+    }
+    .hero p{
+    font-size: 20px;
+    }
+    
+    @media (max-width: 767.98px) { 
+    .hero{
+    margin-top: 90px;
+    }
+    .hero h1{
+    font-size: 30px;
+    }
+    .hero p{
+    font-size: 15px;
+    }
+    }
+    
+    /* Fixed button*/
+    .social{
+    list-style: none;
+    z-index: 99;
+    margin-top: 150px;
+    
+    }
+    .social a{
+    color: azure;
+    text-decoration-line: none;
+    box-sizing: border-box;
+    display: block;
+    border-bottom:1px solid rgba(0, 0, 0, 0.105) ;
+    line-height: 60px;
+    width: 50px;
+    padding-left: 18px;
+    font-size: 20px;
+    
+    }
+    .social a:hover{
+    color: #ffffff;
+    transform: scale(1.5);
+    border-bottom: none;
+    }
+    
+    .social li:nth-child(1){
+    background: linear-gradient(60deg, #3629a2, #00ceff);;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .social li:nth-child(2){
+    background:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }
+    .social li:nth-child(3){
+    background: linear-gradient(45DEG,#66757F,#00ACEE,#36D8FF,#79ddf7,#bce5ef);
+    }
+    .social li:nth-child(4){
+    background:  linear-gradient(90deg, rgba(17,61,125,1) 0%, rgb(35, 35, 203) 44%, rgb(4, 54, 171) 100%);;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    }
+    .social i{
+    position: absolute;
+    top: 17px;
+    
+    }
+    
+    /*organiser votre event*/
+    .glow-on-hover {
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(45deg, #00ffd5, #002bff, #7a00ff, #ff00c8);
+    z-index: 0;
+    border-radius: 50px;
+    
+    }
+    
+    .glow-on-hover:hover{
+    background: linear-gradient(45deg, #75e9d5, #7084eb, #9f61e1, #e268c8);
+    transform: scale(1.1);
+    }
+    .div-event{
+        height:300px;
+        width:400px;
+    }
+    .img-fluid{
+        height:100%;
+        width:100%;
+    }
+    /*Green line*/
+.line{
+  border-bottom: 3px solid rgb(59, 244, 225);
+  width: 100px;
+  display: inline-flex;
+}
+/*Whatsapp*/
+
+.whatapp button{
+  background: linear-gradient(45DEG,#E5FFCC,#13c2a8,#03d16d,#8aeef1,#9eeed9,#ffffff);
+  width: 50px;
+  height: 50px;
+  z-index: 99;
+ 
+}
+.whatapp button:hover{
+   transform: scale(1.1);
+   box-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+.whatapp span{
+   margin-left: 70px;
+}
+.emoji {
+   width: 20px;
+   user-select: none;
+}
+.navbar{
+    background-color:rgba(25, 25, 25, 0.146);
+    font-family: 'Merriweather';
+    z-index: 99;
+    
+}
+.navbar-brand{
+  background: url(../photos/Log.png) center center no-repeat;
+  position: relative;
+  width: 150px;
+  left: 15px;
+  height:60px;
+  
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    transform: scale(1.1);
+}
+
+.bouton{
+    font-family:'Merriweather';
+    background: #FFFFFF;
+    color: #D91B5C;
+   padding: 5px;
+    border-radius: 10px;
+}
+.bouton:hover{
+    transform: scale(1.1);
+}
+
+.image1{
+background: url(../photos/event4.jpg) center center no-repeat;
+width: 440px;
+height: 290px;
+}
+.image2{
+    background: url(../photos/event2.jpg) center center no-repeat;
+    width: 440px;
+    height: 300px;
+ }
+.image3{
+background: url(../photos/event3.jpg) center center no-repeat;
+width: 450px;
+height: 300px;
+}
+.image4{
+    background: url(../photos/event1.jpg) center center no-repeat;
+    width: 450px;
+    height: 290px;
+}
+.titre{
+    color: #D91B5C;
+}

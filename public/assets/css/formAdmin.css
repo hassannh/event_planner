@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Merriweather:ital,wght@0,300;1,300&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+/* font*/
+ .redressed{
+  font-family:'Redressed',cursive ;
+}
+.Merriweather{
+  font-family: 'Merriweather';
+}
+.bttn {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #D91B5C;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration-line: none;
+  }
+  .titre{
+    color: #D91B5C;
+  }
+  .col{
+    color: rgb(255, 0, 0);
+  }
+  .titre2{
+    color: #D91B5C;
+    margin-left: 100px;
+    font-weight: bold;
+  }
+
+ 
+  
+
+  

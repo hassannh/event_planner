@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Merriweather:ital,wght@0,300;1,300&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+/* font*/
+ .redressed{
+  font-family:'Redressed',cursive ;
+}
+.Merriweather{
+  font-family: 'Merriweather';
+}
+body{
+    background:url(../photos/2.jpg) center center  fixed ;
+    height:100%;
+    width: auto; 
+    background-size: 100% 100%;  
+}
+body{
+    background:url(../photos/3.jpg) center center repeat fixed ;
+    height:100%;
+    width: auto; 
+    background-size: 100% 100%;  
+}
+
+
+  .desc{
+    background-color: #ffffff;
+  }
+      .container{
+   
+   padding: 2% 0 0 ;
+   
+ }
+        .desc {
+            width: 200px;
+            background-color: #ffffff;
+            border-radius: 25px;
+            text-align: center;
+            color: #D91B5C;
+            font-family:'Merriweather' ;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+
+        .images {
+            background-color: #D91B5C;
+            width: 300px;
+            height: 250px;
+            border-radius: 20px;
+            margin-top: 10px;
+
+        }
+
+        .images img {
+            height: 200px;
+            width: 100px;
+            border-radius: 20px;
+            padding: 10px;
+
+        }
+
+        .images p {
+            color: #ffffff;
+            padding-left: 10px;
+           font-family: 'Courier New', Courier, monospace;
+
+
+        }
+
+        .titre {
+            text-align: right;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 30px;
+
+        }
+
+      
+
+        input[type=checkbox] {
+
+            transform: scale(2);
+            padding: 10px;
+            border-color: #ffffff;
+            margin: 15px 10px;
+
+        }
+
+        /* Steps */
+        .step {
+            position: relative;
+            min-height: 1em;
+            color: #D91B5C;
+        }
+
+        .step+.step {
+            margin-top: 1.5em
+        }
+
+        .step>div:first-child {
+            position: static;
+            height: 0;
+        }
+
+        .step>div:not(:first-child) {
+            margin-left: 1.5em;
+            padding-left: 1em;
+        }
+
+        .step.step-active {
+            color: #ffffff
+        }
+
+        .step.step-active .circle {
+            background-color: #D91B5C;
+        }
+
+      
+        .title {
+            line-height: 1.5em;
+
+            color: transparent;
+
+        }
+
+        .caption {
+            color: transparent;
+
+        }
+
+        .title-active {
+            line-height: 1.5em;
+
+            color: #ffffff;
+
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Merriweather:ital,wght@0,300;1,300&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+  
+  .StyleNav{
+     
+      font-family: 'Merriweather';
+      font-size: 20px;
+      
+      z-index: 99;
+      
+  } 
+
+  
+  
+
+
+ #salles{
+    background-color: #FFFFFF;
+    border-radius: 25px;
+   
+   
+ }
+ .col-md-3{
+    margin-left: 65px;
+ }
+ .autre label{
+    color: #D91B5C;
+ }
+ .autre input[type=text]{
+    background-color: #D91B5C;
+    border-color: transparent;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+ }
+ .autre{
+    text-align: end;
+
+ }
+
+
+ .retour{
+    color:  #D91B5C;
+    width: 25px;
+    height:  25px;
+    border-radius: 50px;
+  
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
+
+  }
+
+ 
+
+
+  .logout span{
+    text-decoration-line: none;
+    color: #FFFFFF;
+  }
+  .bouton{
+    font-family:'Merriweather';
+    background:  #FFFFFF;
+    color:#D91B5C;
+    padding: 9px;
+    border-radius: 15px;
+    border: 2px solid #D91B5C;
+    margin-top: 30px;
+ 
+   font-weight: bold;
+  
+  }
+  .bouton:hover{
+    transform: scale(1.1);
+  }

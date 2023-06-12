@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body{
+    background:url(../photos/Logo.png) center center repeat fixed ;
+    height:100%;
+    width: auto; 
+    background-size: 100% 100%;  
+}
+.container{
+  width: 340px;
+  padding: 8% 0 0;
+  margin: auto;
+
+}
+
+ 
+ .form input[type=checkbox]
+{
+  
+  padding: 10px;
+  border: none;
+  
+   
+}
+.form h3 {
+  font-family: Georgia;font-size: 16px;
+  font-weight: 600;
+  margin-top:25px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+/* Might want to wrap a span around your checkbox text */
+.form .checkboxtext
+{
+  display: inline;
+ 
+}
+  .form input {
+    font-family: "Roboto", sans-serif;
+    background:#FFFFFf;
+    color:#D91B5C;
+    width:100%;
+    border: 0;
+    margin: 0 0 10px;
+    padding: 12px  ;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+  .form input::placeholder {
+    color: #D91B5C;
+    width: 600;
+  }
+
+  .form input[type=text]:focus {
+    outline: none !important;
+    border:1px solid #FFFFFF;
+    box-shadow: 0 0 10px #D91B5C;
+  }
+  .form input[type=email]:focus {
+    outline: none !important;
+    border:1px solid #D91B5C;
+    box-shadow: 0 0 10px #FFFFFF;
+  }
+  
+  .form input[type=password]:focus {
+    outline: none !important;
+    border:1px solid #D91B5C;
+    box-shadow: 0 0 10px #FFFFFF;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #D91B5C;
+    color: #FFFFFF;
+    width: 90%;
+    border: 2px solid#FFFFFF;
+    margin: 0 0 15px;
+    padding: 10px;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .form a:link{
+    text-decoration: none;
+    font-family: Georgia;
+
+  }
+  .form button:focus {
+    outline: none !important;
+    border:1px solid #D91B5C;
+    box-shadow: 0 0 10px #FFFFFF;
+  }
+  .invalid{
+    color: #FFFFFF;
+    
+  }
+  
+  
+
+  

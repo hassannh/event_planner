@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Merriweather:ital,wght@0,300;1,300&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+/* font*/
+ .redressed{
+  font-family:'Redressed',cursive ;
+}
+.Merriweather{
+  font-family: 'Merriweather';
+}
+/* Style the sidebar container */
+.sidebar {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  background-color: #D91B5C;
+  color: #fff;
+ 
+  overflow-y: auto;
+}
+
+/* Style the navigation links */
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+
+/* Style the menu icons */
+.menu-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/* Style the menu title */
+.menu-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  font-family:'Redressed',cursive ;
+}
+
+/* Add a background color to the active link */
+.nav-link.active {
+  background-color: #f9f4f4;
+}

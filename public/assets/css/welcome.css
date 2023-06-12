@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Merriweather:ital,wght@0,300;1,300&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+/* font*/
+ .redressed{
+  font-family:'Redressed',cursive ;
+}
+.Merriweather{
+  font-family: 'Merriweather';
+}
+body{
+    background:url(../photos/accueil.jpg);
+    background-size: cover;
+    height:auto;
+    width: auto; 
+    
+    
+}
+
+.navbar{
+    background-color:rgba(25, 25, 25, 0.146);
+    font-family: 'Merriweather';
+    z-index: 99;
+    
+}
+.navbar-brand{
+  background: url(../photos/Log.png) center center no-repeat;
+  position: relative;
+  width: 150px;
+  left: 15px;
+  height:60px;
+  
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    transform: scale(1.1);
+}
+
+.bouton{
+    font-family:'Merriweather';
+    background: #FFFFFF;
+    color: #D91B5C;
+   padding: 5px;
+    border-radius: 10px;
+}
+.bouton:hover{
+    transform: scale(1.1);
+}
+.container{
+    padding-top: 150px;
+}
+.boutom{
+    font-family:'Merriweather';
+    background: #FFFFFF;
+    color: #D91B5C;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 95px;
+}
+.boutom:hover{
+   
+    transform: scale(1.1);
+}
+
+.image1 img{
+background: url(../photos/calendrier.png) center center no-repeat;
+width: 60px;
+height: 60px;
+background-color: #FFFFFF;
+border-radius: 40px;
+margin-left: 10px;
+
+}
+.image2 img{
+    background: url(../photos/salle.png) center center no-repeat;
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.image3 img{
+    background: url(../photos/equipement.png) center center no-repeat;
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.image4 img{
+    background: url(../photos/personnel.png) center center no-repeat;
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.image5 img{
+    background: url(../photos/services.png) center center no-repeat;
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+.image5 img:hover{
+    transform: scale(1.1);
+}
+
+.image4 img:hover{
+    transform: scale(1.1);
+}
+.image3 img:hover{
+    transform: scale(1.1);
+}
+.image2 img:hover{
+    transform: scale(1.1);
+}
+.image1 img:hover{
+    transform: scale(1.1);
+}
+.menu li a{
+    text-decoration-line: none;
+    color: #FFFFFF;
+}

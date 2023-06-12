@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Merriweather:ital,wght@0,300;1,300&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+/* font*/
+ .redressed{
+  font-family:'Redressed',cursive ;
+}
+.Merriweather{
+  font-family: 'Merriweather';
+}
+body{
+    background:url(../photos/PhotoStudio.jpg) center center  fixed ;
+    height:100%;
+    width: auto; 
+    background-size: 100% 100%;  
+}
+.retour{
+    color:  #D91B5C;
+    width: 25px;
+    height:  25px;
+    border-radius: 50px;
+  
+  }
+  .logout img{
+  
+    background: url(../photos/useres.png) center center no-repeat;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #fff;
+    
+}
+
+.logout span{
+  text-decoration-line: none;
+  color: #FFFFFF;
+}
+
+/* Category Start */
+.category-card{
+    border: 1px solid #ddd;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    margin-bottom: 24px;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 260px;
+}
+.category-card a{
+    text-decoration: none;
+}
+.category-card .category-card-img{
+    max-height: 260px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    border-radius: 20px;
+    
+   
+}
+.equipement a{
+  text-decoration: none;
+ background-color: #FFFFFF;
+  
+}
+.equipement{
+  background-color: #FFFFFF;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.equipement h5{
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #D91B5C;
+  text-align: center;
+  padding: 10px;
+  
+}
+/* Category End */
+
+.bouton{
+  font-family:'Merriweather';
+  background:  #FFFFFF;
+  color:#D91B5C;
+  padding: 5px;
+  border-radius: 15px;
+  border: 2px solid #D91B5C;
+  margin-top: 10px;
+  font-weight: bold;
+
+}
+.bouton:hover{
+  transform: scale(1.1);
+}

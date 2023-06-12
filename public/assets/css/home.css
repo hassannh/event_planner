@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Lato&family=Merriweather:ital,wght@0,300;1,300&family=Patua+One&family=Poppins&family=Redressed&family=Roboto:wght@100;300;500&display=swap');
+/* font*/
+ .redressed{
+  font-family:'Redressed',cursive ;
+}
+.Merriweather{
+  font-family: 'Merriweather';
+}
+body{
+    background:url(../photos/2.jpg) center center  fixed ;
+    height:100%;
+    width: auto; 
+    background-size: 100% 100%;  
+}
+.retour{
+    color:  #D91B5C;
+    width: 25px;
+    height:  25px;
+    border-radius: 50px;
+  
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
+
+  }
+
+ 
+  .logout img{
+  
+      background: url(../photos/useres.png) center center no-repeat;
+      width: 45px;
+      height: 45px;
+      border-radius: 50px;
+      background-color: #fff;
+      
+  }
+
+  .logout span{
+    text-decoration-line: none;
+    color: #FFFFFF;
+  }
+
+ .card-body label{
+  color: rgb(20, 8, 112);
+  font-family:'Merriweather' ;
+  font-weight: bold;
+  
+ }
+ .card-body input{
+  background-color:#D91B5C ;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+  color: #FFFFFF;
+ }
+ .card-body input::placeholder{
+ color: #ffffff7d;
+  
+ }
+ .card-body h6{
+  color: rgb(20, 8, 112);
+  font-family:'Merriweather';
+ }
+ .bouton{
+  font-family:'Merriweather';
+  background:  #FFFFFF;
+  color:#D91B5C;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #D91B5C;
+  margin-top: 30px;
+ margin-left: 400px;
+ font-weight: bold;
+
+}
+.bouton:hover{
+  transform: scale(1.1);
+}
+
+.card-body select{
+  background-color:#D91B5C ;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+  color: #FFFFFF;
+ }
+ .card-body option{
+  color: #FFFFFF;
+ }
