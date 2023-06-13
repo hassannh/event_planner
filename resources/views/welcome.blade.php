@@ -9,6 +9,17 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/css/welcome.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+    <style type="text/css">
+        i{
+            font-size: 50px !important;
+            padding: 10px;
+        }
+    </style>
         <!-- Styles -->
         <style>
             /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -47,7 +58,7 @@
         
     </head>
     <body>
-<nav class="navbar navbar-expand-lg pt-3 navbar-dark position-fixed w-100">
+<!-- <nav class="navbar navbar-expand-lg pt-3 navbar-dark position-fixed w-100">
   <div class="container-fluid">
    <a class="navbar-brand" ></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,7 +85,92 @@
      
     </div>
   </div>
-</nav>
+</nav> -->
+
+
+<div class="background">
+
+        <div class="header container-fluid">
+
+            <div>
+                <a class="navbar-brand" href=""><img></a>
+                <!-- <a class="navbar-brand" href=""></a> -->
+                <!-- <i class="fa fa-copy"></i> -->
+            </div>
+
+
+            <div class="nav_List mt-5">
+                <ul>
+                    <li class="nav-link">
+                      <a  href="">Acceuil</a>
+                    </li>
+                    <li class="nav-link">
+                      <a  href="{{url('/frontend/realisation')}}">Réalisations</a>
+                    </li>
+                    <li class="nav-link">
+                      <a  href="">Blog</a>
+                    </li>
+                    <li class="nav-link">
+                      <a  href="{{url('/frontend/contact')}}" >Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-md-8 offset-md-4 mt-5">
+                <button class="bouton fw-bold me-2" onclick="window.location.href='{{ route('login') }}'" type="submit">Budgétiser votre événement</button>
+            </div>
+
+        </div>
+
+
+        <div class="section2">
+
+            <div class="item1">
+                <h3
+                    style="background-color: white; border-radius: 22px; height: 38px; width: 370px; padding-left: 7px; color: rgb(199, 37, 91);">
+                    renseigner-vous maintenant</h3>
+                <h5 style="padding-left: 35px; color: white;">ipsum dolor sit amet consectetur</h5>
+                <p style="padding-left: 40px; color: white; padding-top: 13px;">Lorem, ipsum dolor sit amet consectetur
+                    <br>
+                    adipisicing elit. Perspiciatis consectetur.
+                </p>
+            </div>
+
+            <div class="item2">
+                <img src="../../public/images/personnel/ 171.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="icons">
+            <span>
+                <i class="fa-sharp fa-light fa-table-picnic"></i>
+                <i class="fa fa-trash"></i>
+
+                SALLES
+            </span>
+            <span>
+                <i class="fa-thin fa-couch"></i>
+                <i class="fa fa-save"></i>
+                EQUIPEMENTS
+            </span>
+            <span>
+                <!-- <i class="fa-thin fa-users"></i>
+                <i class="fa fa-copy"></i> -->
+                <!-- <i class="fa-light fa-users"></i> -->
+                <i class="fa-thin fa-user"></i>
+                PERSONNELS
+            </span>
+            <span>
+                <i class="fa-light fa-bell"></i>
+                SERVICE
+            </span>
+
+
+        </div>
+
+    </div>
 
 
 
@@ -85,6 +181,91 @@
 }
 </style>
 
+<style>
+
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            /* background-image: url("pictures/Vector.svg");
+            background-color: rgb(205, 39, 94); */
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .background {
+            /* background-image: url("pictures/Vector.svg"); */
+            background-color: rgb(220, 27, 91);
+            height: 35rem;
+        }
+
+        .nav_List ul {
+            display: flex;
+            flex-direction: row;
+            gap: 22px;
+            margin-left: 33px;
+            list-style: none;
+        }
+        .nav_List ul li{
+          color: white;
+        }
+
+        .logo a img {
+            height: 100px;
+            width: 100px;
+            margin-left: 5px;
+        }
+
+        .booking {
+            background-color: white;
+            border-radius: 21px;
+            height: 25px;
+            width: 227px;
+            padding-top: 2px;
+            padding-left: 11px;
+            align-items: center;
+            color: rgb(189, 31, 84);
+
+        }
+
+        .section2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 3rem;
+            margin-left: 3rem;
+        }
+
+        .section2 .item2 img {
+            height: 300px;
+            width: 500px;
+        }
+
+        .section2 .item1 {
+            margin-top: 4rem;
+        }
+
+        .icons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 19px;
+        }
+
+        .icons span img {
+            width: 62px;
+
+        }
+    </style>
+
+
+
+
+
 
 <div class="container overflow-hidden">
     <div class="row">
@@ -93,7 +274,7 @@
            
             <li>
               <a  class="image2" href="{{url('frontend/indexSalle')}}">
-                <i ><img  alt=""></i>
+                <i ><img alt=""></i>
                 <P class="ms-3 mt-1 fw-bold">salles</P>
               </a>
             </li>

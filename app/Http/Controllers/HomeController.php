@@ -206,6 +206,9 @@ class HomeController extends Controller
     }
     
 
+
+
+
     //modification
     public function storePersonnel(Request $request)
     {
@@ -502,8 +505,8 @@ class HomeController extends Controller
     public function downloadFacture(){
         //EventArticle
 
+        // dd("hJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJhhhhh");
 
-        
         $event = Evenement::where('id' , session('eventId'))->first();
 
         //User
@@ -547,7 +550,7 @@ class HomeController extends Controller
             $dompdf->loadHtml($html);
             $dompdf->render();
             $filename = 'facture.pdf';
-            // dd("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
+            
             return $dompdf->stream($filename);
                 
     }
