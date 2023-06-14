@@ -7,14 +7,16 @@
 .Merriweather{
   font-family: 'Merriweather';
 }
-/* body{
-    background:url(../photos/accueil.jpg);
-    background-size: cover;
+body{
+    /* background:url(../photos/accueil.jpg); */
+    /* background-size: cover; */
     height:auto;
     width: auto; 
+    overflow-x:hidden;
     
     
-} */
+}
+
 
 .navbar{
     background-color:rgba(25, 25, 25, 0.146);
@@ -23,7 +25,7 @@
     
 }
 .navbar-brand{
-  background: url(../photos/Log.png) center center no-repeat;
+  /* background: url(../photos/Log.png) center center no-repeat; */
   /* width: 150px;
   height:40px; */
   
@@ -102,10 +104,7 @@ margin-left: 10px;
     margin-left: 10px;
 }
 
-.logo3 img{
-    background: url(../../images/logo3\ 3.png);
-    
-}
+
 
 .image5 img:hover{
     transform: scale(1.1);
