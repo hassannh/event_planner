@@ -446,14 +446,9 @@
 
     <div class="header container-fluid">
 
-      <div class="logo" style="">
+      <div class="logo">
         <img src="{{asset('assets/photos/Log.png') }}" alt="">
       </div>
-
-      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
-
 
       <div class="nav_List mt-5">
         <ul>
@@ -492,12 +487,11 @@
     <div class="section2">
 
       <div class="item1">
-        <h3 style="background-color: white; border-radius: 22px; height: 38px; width: 370px; padding-left: 7px; color: rgb(199, 37, 91);">
+        <h3 style="background-color: white; border-radius: 22px; height: 38px; width: 380px; padding-left: 7px; color: rgb(199, 37, 91);">
           Renseigner-vous maintenant</h3>
-        <h5 style="padding-left: 35px; color: white;">ipsum dolor sit amet consectetur</h5>
-        <p style="padding-left: 40px; color: white; padding-top: 13px;">Lorem, ipsum dolor sit amet consectetur
-          <br>
-          adipisicing elit. Perspiciatis consectetur.
+        <h5 style="padding-left: 35px; color: white;">Planifiez, calculez, reussissez</h5>
+        <p style="padding-left: 40px; color: white; padding-top: 13px;">La maniere la plus rapide de <br>
+          budgetiser votre evenement
         </p>
       </div>
 
@@ -508,28 +502,34 @@
 
 
     <div class="icons">
-      <span>
-        <i class="fa-sharp fa-light fa-table-picnic"></i>
-        <i class="fa fa-trash"></i>
 
-        SALLES
-      </span>
-      <span>
-        <!-- <i class="fa-thin fa-couch"></i> -->
-        <i class="fa fa-save"></i>
+      <div>
+        <img style="height: 50px; width:50px" src="{{asset('assets/photos/salles.png')}}" alt="SALLES"> <br>
+        <span>
+          SALLES
+        </span>
+      </div>
+      <div>
+        <img style="height: 50px; width:50px;" src="{{asset('assets/photos/salles.png')}}" alt="EQUIPEMENTS"> <br>
+        <span>
         EQUIPEMENTS
-      </span>
-      <span>
-        <!-- <i class="fa-thin fa-users"></i>
-                <i class="fa fa-copy"></i> -->
-        <!-- <i class="fa-light fa-users"></i> -->
-        <i class="fa-thin fa-user"></i>
+        </span>
+      </div>
+      <div>
+        <img style="height: 50px; width:50px" src="{{asset('assets/photos/salles.png')}}" alt="PERSONNELS"> <br>
+        <span>
         PERSONNELS
-      </span>
-      <span>
-        <i class="fa-thin fa-user"></i>
+        </span>
+      </div>
+      <div>
+        <img style="height: 50px; width:50px" src="{{asset('assets/photos/salles.png')}}" alt="SERVICE"> <br>
+        <span>
         SERVICE
-      </span>
+        </span>
+      </div>
+
+
+      
 
 
     </div>
@@ -558,7 +558,8 @@
       flex-direction: row;
 
     }
-    .loginB{
+
+    .loginB {
       margin-top: 38px;
       margin-right: 20px;
     }
@@ -589,15 +590,16 @@
       margin-top: 14px;
     }
 
-    .profil img{
+    .profil img {
       height: 40px;
       width: 40px;
       margin-top: 19px;
       margin-left: 20px;
     }
-    .profil{
+
+    .profil {
       margin-top: 11px;
-    
+
     }
 
     .booking {
@@ -615,6 +617,7 @@
     .section2 {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       justify-content: space-around;
       margin-top: 3rem;
       margin-left: 3rem;
@@ -641,16 +644,17 @@
 
     }
 
-    .main3{
-      background: url({{asset('assets/photos/section3.png')}});
-      h
+    .main3 {
+      background: url({{asset('assets/photos/section3.png')}})
+      disp
+      
     }
 
     .section3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 400px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 400px;
     }
 
     .section3 {
@@ -666,7 +670,7 @@
   <div class="main3">
 
 
-  <h2 style="display: flex; justify-content:center; padding-top:4rem;">À Propos de nous</h2>
+    <h2 style="display: flex; justify-content:center; padding-top:4rem;">À Propos de nous</h2>
 
 
     <div class="section3">
