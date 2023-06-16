@@ -31,6 +31,7 @@ Auth::routes();
     Route::get('StaticEqui',[App\Http\Controllers\Admin\DashboardController::class, 'index2']);
     //category route
     Route::get('/equipement', [App\Http\Controllers\Admin\EquipementController::class, 'index'])->name('equipement.index');
+
     Route::get('/equipement/create', [App\Http\Controllers\Admin\EquipementController::class, 'create'])->name('equipement.create');
     Route::post('/equipement',[App\Http\Controllers\Admin\EquipementController::class, 'store'])->name('equipement.store');
     Route::get('/equipement/{equipement}/edit',[App\Http\Controllers\Admin\EquipementController::class, 'edit'])->name('equipement.edit');
@@ -118,6 +119,17 @@ Auth::routes();
   Route::get('frontend/contact',[App\Http\Controllers\FrontEnd\FrontEndController::class,'contact'])->name('frontend.contact');
   //view articles
   Route::get('frontClient/equipement',[App\Http\Controllers\FrontClient\Equipements::class,'equipement'])->name('frontClient.equipement');
+  
+  
+  
+  
+  Route::get('frontClient/equipements',[App\Http\Controllers\FrontClient\Equipements::class,'dashindex'])->name('frontClient.equipements');
+  
+  
+
+
+
+
   Route::get('frontClient/article/{id}',[App\Http\Controllers\FrontClient\Equipements::class,'article'])->name('frontClient.article');
   //personnel
   

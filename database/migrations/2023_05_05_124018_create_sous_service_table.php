@@ -11,6 +11,10 @@ return new class extends Migration
      *
      * @return void
      */
+
+
+
+     
     public function up()
     {
         Schema::create('sous_service', function (Blueprint $table) {

@@ -21,6 +21,10 @@ class EquipementController extends Controller
         $equipements = Equipement::orderBy('id','DESC')->get();
         return view('admin.equipement.index',['equipements'=>$equipements]);
     }
+    
+   
+
+
 
     public function create(){
         return  view('admin.equipement.create');

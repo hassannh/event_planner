@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers\FrontClient;
 
-use App\Models\Images;
-use App\Models\Article;
+// use App\Models\Images;
+// use App\Models\Article;
 use App\Models\Equipement;
-use Illuminate\Http\Request;
+// use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
@@ -13,9 +13,20 @@ use App\Http\Controllers\Controller;
 class Equipements extends Controller
 {
     public function equipement(){
-        $equipements = Equipement::all();
+        $equipements = Equipement::all(); 
         return view('frontClient.equipement',['equipements'=>$equipements]);
     }
+
+
+    public function dashindex(){
+
+
+        // dd("hhhhhhhhhhhhhhhhhhhh");
+        // $equipements = Equipement::orderBy('id','DESC')->get();
+
+
+          return view('frontClient.equipements');
+      }
 
 
 
