@@ -554,7 +554,4 @@ class HomeController extends Controller
             return $dompdf->stream($filename);
                 
     }
-    
-
-
 }

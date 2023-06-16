@@ -442,6 +442,8 @@
 </nav> -->
 
 
+
+
   <div class="background">
 
     <div class="header container-fluid">
@@ -449,6 +451,14 @@
       <div class="logo">
         <img src="{{asset('assets/photos/Log.png') }}" alt="">
       </div>
+
+
+      <!-- toggle -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <!-- toggle -->
+
+      
 
       <div class="nav_List mt-5">
         <ul>
@@ -482,8 +492,6 @@
 
 
 
-
-
     <div class="section2">
 
       <div class="item1">
@@ -512,24 +520,24 @@
       <div>
         <img style="height: 50px; width:50px;" src="{{asset('assets/photos/salles.png')}}" alt="EQUIPEMENTS"> <br>
         <span>
-        EQUIPEMENTS
+          EQUIPEMENTS
         </span>
       </div>
       <div>
         <img style="height: 50px; width:50px" src="{{asset('assets/photos/salles.png')}}" alt="PERSONNELS"> <br>
         <span>
-        PERSONNELS
+          PERSONNELS
         </span>
       </div>
       <div>
         <img style="height: 50px; width:50px" src="{{asset('assets/photos/salles.png')}}" alt="SERVICE"> <br>
         <span>
-        SERVICE
+          SERVICE
         </span>
       </div>
 
 
-      
+
 
 
     </div>
@@ -544,6 +552,33 @@
 
     }
   </style>
+
+<style>
+  /* CSS for the responsive navbar */
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+
+  /* Media query for mobile devices */
+  @media screen and (max-width: 768px) {
+    .nav_List {
+      display: none;
+    }
+
+    .menu-icon {
+      display: block;
+    }
+
+    .menu-toggle:checked ~ .nav_List {
+      display: block;
+    }
+  }
+</style>
 
   <style>
     * {
@@ -645,21 +680,29 @@
     }
 
     .main3 {
-      background: url({{asset('assets/photos/section3.png')}})
-      disp
-      
+      background: url({{asset('assets/photos/section3.png')}}) 
     }
 
     .section3 {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       justify-content: space-around;
       height: 400px;
-    }
-
-    .section3 {
       padding-top: 2rem;
     }
+
+    @media screen and (min-width: 600px) {
+      /* .section3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+      }
+      .section3.text{
+        margin-top: 12px;
+      } */
+    }
+
 
     .section3 .iconPic img {
       height: 280px;
@@ -673,12 +716,12 @@
     <h2 style="display: flex; justify-content:center; padding-top:4rem;">À Propos de nous</h2>
 
 
-    <div class="section3">
+    <div class="section3 wrap">
 
       <div class="iconPic">
         <img src="{{asset('assets/photos/icon1.png')}}" alt="">
       </div>
-      <div>
+      <div class="text">
         <h3>EVENTS PLANNER</h3>
         <p>EVENTS PLANNER est un outil en ligne <br>
           permettant aux organisateurs d’événements <br>
@@ -690,7 +733,7 @@
           une estimation du coût total de l’événement</p>
       </div>
     </div>
-    <div class="section3">
+    <div class="section3 wrap">
 
 
       <div>
@@ -712,7 +755,7 @@
 
 
 
-    <div class="section3">
+    <div class="section3 wrap">
 
       <div class="iconPic">
         <img src="{{asset('assets/photos/icon3.png')}}" alt="">
@@ -732,7 +775,7 @@
 
 
 
-    <div class="section3">
+    <div class="section3 wrap">
 
 
       <div>
@@ -797,7 +840,13 @@
 
 
 
-
+  <script>
+  // JavaScript for handling the navbar toggle
+  document.querySelector('.menu-icon').addEventListener('click', function() {
+    const menuToggle = document.getElementById('menu-toggle');
+    menuToggle.checked = !menuToggle.checked;
+  });
+</script>
 
 
 </body>
