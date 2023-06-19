@@ -46,14 +46,14 @@
                             <div class="category-card">
                                 <a href="{{ url('frontClient/SousService', ['id' => $service->id]) }}">
                                     <div class="category-card-img">
-                                        <img src="{{ url('/uploads/service/'.$service->image) }}" class="w-100 h-100">
+                                        <img src="{{ asset('/uploads/service/'.$service->image) }}" class="w-100 h-100">
                                     </div>
                                 </a>
                             </div>
                         </div>
                     @endforeach
                 </div>
-                <div class="fixed-bottom d-flex justify-content-end mb-5 me-5">
+                <div class="d-flex justify-content-end mb-5 me-5">
                     <button type="submit" class="bouton px-5">Valider</button>
                 </div>
                 </form>
