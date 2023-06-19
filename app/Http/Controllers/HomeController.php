@@ -82,7 +82,7 @@ class HomeController extends Controller
     // dd("hhhhhhhhhhhhhhhhh");
     $guests = session('guests');
     $salles = Salle::with('ImageSalle')->where('capacite', '>=', $guests)->get();
-    // dd($salles);
+ 
     return view('frontClient.salle', compact('salles', 'guests'));
     
 }

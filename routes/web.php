@@ -56,7 +56,7 @@ Auth::routes();
     Route::get('/user/{id}/edit', [App\Http\Controllers\Admin\UsersControllr::class, 'edit'])->name('user.edit');
     Route::put('/user/{id}',[App\Http\Controllers\Admin\UsersControllr::class, 'update'])->name('user.update');
 
-
+ 
     //impression
     Route::get('/impression', [App\Http\Controllers\Admin\ImpressionController::class, 'index'])->name('impression.index');
     Route::get('/impression/create', [App\Http\Controllers\Admin\ImpressionController::class, 'create'])->name('impression.create');
@@ -125,11 +125,6 @@ Auth::routes();
   
   Route::get('frontClient/equipements',[App\Http\Controllers\FrontClient\Equipements::class,'dashindex'])->name('frontClient.equipements');
   
-  
-
-
-
-
   Route::get('frontClient/article/{id}',[App\Http\Controllers\FrontClient\Equipements::class,'article'])->name('frontClient.article');
   //personnel
   

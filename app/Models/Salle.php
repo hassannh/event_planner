@@ -24,10 +24,18 @@ class Salle extends Model
     //     return $this->hasOne(ImageSalle::class);
     // }
 
-    public function ImageSalle()
+//     public function ImageSalle()
+// {
+//     return $this->hasOne(ImageSalle::class, 'salle_id');
+// }
+
+// Salle.php
+
+public function imageSalle()
 {
-    return $this->hasOne(ImageSalle::class, 'salle_id');
+    return $this->hasOne(ImageSalle::class);
 }
+
 
 }
 

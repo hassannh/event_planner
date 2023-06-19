@@ -69,11 +69,12 @@
                                         <div class="images">
                                             <div id="carouselExampleIndicators" class="carousel slide slider" data-bs-ride="carousel">
                                                 <div class="carousel-inner carousel">
-                                                    <div class="carousel-item {{ $key == 0 ? 'active':''}}">
+                                                    <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
                                                         @if ($salle->ImageSalle)
-                                                        <img src="{{ asset('uploads/salles/' . $salle->ImageSalle->images) }}" class="d-block w-100" alt="...">
+                                                        <img src="{{ asset('uploads/salles/' . $salle->ImageSalle->images) }}" class="d-block w-100" alt="picture">
                                                         @endif
                                                     </div>
+
                                                 </div>
                                             </div>
                                             <p class="text-capitalize">{{$salle->description}}</p>
